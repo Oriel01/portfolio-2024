@@ -4,7 +4,6 @@ import { itemsNavbar } from '../../types/types';
 @Component({
   selector: 'commons-navbar',
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
 })
 export class NavbarComponent implements OnInit{
   items?: itemsNavbar[];
